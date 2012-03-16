@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "userdatabase.h"
+#import "userinfo.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    IBOutlet UIView *mainview;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
